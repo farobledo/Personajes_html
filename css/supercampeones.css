@@ -1,0 +1,74 @@
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:220%
+      
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+    
+   }
+}
+.card-title{
+    align-items: center;
+    color:chartreuse;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate
+    
+}
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    background-color: rgb(8, 233, 241);
+    color: rgb(20, 22, 22);
+    border-bottom: rgb(37, 42, 42);
+    padding: 0.5rem;
+    text-align:justify;
+    text-decoration: overline;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: rgb(243, 11, 11);
+    color: rgb(228, 11, 11);
+  }
+  .card-body{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+.card-img-top{
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+   
+  }
+  
+  #delay:hover {
+    font-size: 36px;
+  }
+  h1{
+      align-items: center;
+      color:rgb(10, 243, 243);
+  }
+P{
+    color:rgb(240, 23, 23);
+}

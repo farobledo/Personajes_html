@@ -1,0 +1,9 @@
+html{
+    background-image: url("../assets/poquemon/pokemon.webp");
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    background-position: right top;
+    height: fit-content;
+    background-repeat: no-repeat;
+    
+}

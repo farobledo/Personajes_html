@@ -1,0 +1,73 @@
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:220%
+      
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+    
+   }
+}
+.card-title{
+    align-items: center;
+    color:chartreuse;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate
+    
+}
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    background-color: rgb(8, 245, 253);
+    color: rgb(26, 241, 212);
+    border-bottom: aqua;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: rgb(10, 115, 156);
+    color: rgb(228, 11, 11);
+  }
+  .card-body{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+.card-img-top{
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+   
+  }
+  
+  #delay:hover {
+    font-size: 36px;
+  }
+  h1{
+      color:aqua;
+  }
+  iframe{
+      align-content: center;
+  }
